@@ -1,0 +1,63 @@
+Prototype for an independent 'Uncertain Times' website
+
+TO DO:-
+---Need---
+Implement Comments
+Security to show my site is the real one
+Host Example on GitHub
+Choose colour scheme
+
+---Want---
+Implement tags
+Implement view counter
+Implement date posted
+Make dedicated mobile app
+Add Search Bar
+
+Add more pages:-
+---Done---
+Home
+
+---To Do---
+About
+Contact us
+Other projects
+  Gallery
+  Stand-up
+  Short Stories
+  Coding
+
+Done:-
+Implement short stories
+Implement audio
+Add photo to header
+Center header image
+Link pages together
+Add links to footer
+Design Article pages- (1000 words, 500px image, header, footer)
+Plan out yearly growth
+Regulate Cell size
+
+---TAGS---
+-Coping
+-Charity
+-Research
+-History
+-Hotlines
+-Mental Health
+-UK
+-Law
+-News
+-Jobs
+
+<Meta name = "keywords" content = "Home, HTML, Meta Tags, Metadata">
+<Meta name = "descryption" content = "The Uncertain Times, Jonathan Cruickshank, Mental health, UK, Politics, Satire, Comedy" />
+
+---Yearly expansion plans
+10kb per article
+4 articles per month
+52 weeks a year
+=
+2.08 MB expansion per year
+
+4 X 52 X 10 = 2080
