@@ -1,0 +1,26 @@
+<!---https://www.w3schools.com/js/js_output.asp--->
+<!---AUTOMATE PREVIEWS--->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="demo"></p>
+
+<p id="article">THIS IS AN EXAMPLE</p>
+<p id="article">THIS IS AN EXAMPLE TOO</p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+<script>
+document.getElementById("article").innerHTML;
+</script>
+
+<!---WRITE FIRST 500(?) WORDS--->
+
+</body>
+</html>
