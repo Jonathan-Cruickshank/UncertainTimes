@@ -9,6 +9,40 @@
 
 <style>
 
+.grid-container {
+  display: inline-grid;
+
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(1, 400px);
+  
+  padding: 10px;
+  grid-gap: 10px;
+
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 9pt;
+  text-align: center;
+}
+
+.grid-container-preview {
+  height: 400px;
+  width: 300px;
+  
+  padding: 10px;
+  grid-gap: 10px;
+
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px;
+}  
+
 a {font-size: 12pt}
 
 div.preview {
