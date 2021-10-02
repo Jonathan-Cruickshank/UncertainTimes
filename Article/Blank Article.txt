@@ -19,23 +19,32 @@
 
 <hr/>
 
+    <!--NavBar-->
 <div align = "center">
+
       <ul class="nav-bar">
-    <li><a href="..\index.html" >HOME</a> |</li>
-    <li><a href="..\Audio Test.html">AUDIO</a> |</li>
-    <li><a href="..\Short Stories.html">SHORT STORIES</a> |</li>
+    <li><a href="index.html">HOME</a> |</li>
+    <li><a href="Audio Test.html">AUDIO</a> |</li>
+    <li><a href="Short Stories.html">SHORT STORIES</a> |</li>
     
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">TAGS</a> |
+      <a href="javascript:void(0)" class="dropbtn">TOPICS </a>|
       <div class="dropdown-content">
-        <a href="..\Link 1.html">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="Short Stories.html">Short Stories</a>
+        <a href="Charity.html">Charity</a>
+        <a href="Coping.html">Coping</a>
+        <a href="Education.html">Education</a>
+        <a href="Employment.html">Employment</a>
+        <a href="History.html">History</a>
+        <a href="Research.html">Research</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Law.html">Law</a>
+        <a href="Politics.html">Politics</a>
+        <a href="Social.html">Social</a>
       </div>
-    </li>
 
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">SOCIAL</a>
+      <a href="javascript:void(0)" class="dropbtn">SOCIAL MEDIA</a>|
       <div class="dropdown-content">
         <a href="https://gab.com/A_Prince_of_Cats">Gab</a>
         <a href="https://twitter.com/JCruin">Twitter</a>
@@ -44,6 +53,8 @@
         <a href="https://www.ko-fi.com/I2I85CW5">Ko-fi</a>
       </div>
     </li>
+
+    <hr/>
 
     </div>
 
