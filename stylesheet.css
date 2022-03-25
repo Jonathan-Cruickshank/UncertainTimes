@@ -42,6 +42,7 @@ a:link {
 visited link
 a:visited {
   color: purple;
+  text-decoration: underline;
 }
 
 selected link
