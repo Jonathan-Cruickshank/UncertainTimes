@@ -14,7 +14,7 @@
 
   grid-template-columns: repeat(3, 300px);
   /* Previous- grid-template-columns: repeat(3, 300px); */
-  grid-template-rows: repeat(1, 400px);
+  grid-template-rows: repeat(1, auto);
   
   padding: 10px;
   grid-gap: 10px;
@@ -58,6 +58,17 @@ div.date {
   font-size: 10pt;
 }
   </style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </head>
 
@@ -115,9 +126,13 @@ div.date {
         <div class="grid-container">
         
                 <div class="grid-item">
-          <a href = "Article\Lifeline 1.html" target = "_self" text-size="8px">Lifeline #1- Samaritans</a>
+          <a href = "Article\Lifeline 1.html" target = "_self" text-size="8px">Lifeline #1- Samaritans</a><br>
           
-          <!-- <img src="../Gallery-images/Size Test.jpg" alt="" width="200px" height="200px" class="center"> -->
+          <button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+          <img src="../Gallery-images/Size Test.jpg" alt="" width="200px" height="200px" class="center">
+          </div>
                   
           <div class="preview">
           <p>You’re scared. You’ve never been here before, never seen these people. You’ve been told, over and over, that they’re just there to help...</p>
@@ -146,13 +161,9 @@ div.date {
           <!-- <div class="grid-item"></div> -->  
   <!--
 If a code update doesn't work I'll change it back
-
 Zoomed out page in browser- NOPE
-
 Full screened browsing window- NOPE
-
 Adding "Test" paragraph to the bottom of the page- NOPE
-
 Changed
 "grid-template-rows: repeat(1, 400px);"
 	to
