@@ -19,6 +19,7 @@ a:active {
 }
 
 /*NAV BAR/DROPDOWN*/
+<style>
 ul.nav {
   text-align: center;
 }
@@ -60,6 +61,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+</style>
 
 </style>
 
