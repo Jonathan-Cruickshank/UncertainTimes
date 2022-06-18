@@ -92,7 +92,7 @@ li.sources{
       <ul class="nav-bar">
     <li><a href="index.html">HOME</a> |</li>
     <li><a href="CV.html">ABOUT (CV)</a> |</li>
-    <li><a href="Article\Tags.html">TOPICS </a>|</li>
+    <li><a href="/Article/Tags.html">TOPICS </a>|</li>
 
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">SOCIALS</a>
