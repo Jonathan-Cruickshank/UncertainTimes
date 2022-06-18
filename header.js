@@ -99,6 +99,7 @@ li.dropdown {
         <a href="https://github.com/APrinceofCats">GitHub</a>
       </div>
     </li>
+    </ul>
 </div>
 <hr/>
 `
