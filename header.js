@@ -24,7 +24,7 @@ ul.nav {
   text-align: center;
 }
 
-ul.nav > li {
+ul.nav-bar > li {
   text-align: center;
   display: inline-block;
 }
