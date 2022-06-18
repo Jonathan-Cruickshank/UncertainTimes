@@ -24,9 +24,6 @@ a:active {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-
-  li.nav-bar {
     display:inline;
   }
 
@@ -73,9 +70,6 @@ li.dropdown {
   display: block;
 }
 
-li.sources{
-  list-style: circle;
-}
 </style>
 
 <div>
