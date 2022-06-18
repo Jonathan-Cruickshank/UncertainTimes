@@ -107,8 +107,8 @@ li.sources{
         <a href="https://github.com/APrinceofCats">GitHub</a>
       </div>
     </li>
-    <hr/>
 </div>
+<hr/>
 `
 
 class Header extends HTMLElement {
