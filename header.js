@@ -106,9 +106,9 @@ li.sources{
         <a href="https://www.ko-fi.com/I2I85CW5">Ko-fi</a>
         <a href="https://github.com/APrinceofCats">GitHub</a>
       </div>
+      <hr/>
     </li>
 </div>
-<hr/>
 `
 
 class Header extends HTMLElement {
