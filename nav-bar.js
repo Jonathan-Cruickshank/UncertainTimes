@@ -4,9 +4,6 @@ class Nav-Bar extends HTMLElements {
   }
 }
 
-<hr/>
-
-    <!--NavBar-->
 <div align = "center">
 
       <ul class="nav-bar">
@@ -27,7 +24,5 @@ class Nav-Bar extends HTMLElements {
         <a href="https://github.com/APrinceofCats">GitHub</a>
       </div>
     </li>
-
-    <hr/>
 
 customElements.define('nav-bar-component', Nav-Bar);
