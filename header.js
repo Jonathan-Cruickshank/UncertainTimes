@@ -26,7 +26,7 @@ a:active {
     overflow: hidden;
   }
 
-  li {
+  li.nav-bar {
     display:inline;
   }
 
