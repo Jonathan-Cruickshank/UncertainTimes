@@ -64,8 +64,6 @@ li.dropdown {
 }
 </style>
 
-</style>
-
 <div>
 
 <h1 align = "center"><u>The Uncertain Times</u></h1>
