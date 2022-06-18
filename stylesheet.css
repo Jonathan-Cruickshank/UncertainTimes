@@ -105,6 +105,6 @@ li.dropdown {
   display: block;
 }
 
-li.sources{
+ul.sources{
   list-style: circle;
 }
