@@ -90,7 +90,7 @@ li.sources{
 <div align = "center">
 
       <ul class="nav-bar">
-    <li><a href="index.html">HOME</a> |</li>
+    <li><a href="../index.html">HOME</a> |</li>
     <li><a href="CV.html">ABOUT (CV)</a> |</li>
     <li><a href="/Article/Tags.html">TOPICS </a>|</li>
 
