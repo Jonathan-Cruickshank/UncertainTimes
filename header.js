@@ -38,7 +38,7 @@ display: inline-block;
       <ul class="nav-bar">
     <li><a href="/../index.html">HOME</a> |</li>
     <li><a href="/../CV.html">ABOUT (CV)</a> |</li>
-    <li><a href="/../Article/Tags/Tags.html">TOPICS </a>|</li>
+    <li><a href="/../Article/Tags/Tags.html">TOPICS</a></li>
 
     </ul>
 </div>
