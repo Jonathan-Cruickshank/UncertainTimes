@@ -2,11 +2,6 @@ Visited article links turn purple, underlined
 Visited nav-bar links turn black, not underlined, including dropdown
 
 ---TO DO
-Scrap audio file
-Clean up gallery file (delete old code and redundant images)
-Clean up article folder (upload clean files, update titles)
-
-Improve article tag and clean up article code
 Move Grid Container Div to CSS
 Center grid container
 
@@ -21,25 +16,9 @@ Add CV
 
 Pics opened/closed closed on page start
 
----Updated Article tag---
-<!DOCTYPE html>
-<html>
-<body>
-<style>
-pre.article{
-  font-size: 14pt;
-  font-family: Georgia;
-  line-height: 1.5;
-}
-</style>
+---Done
+Scrap audio file
+Clean up gallery file (delete old code and redundant images)
+Clean up article folder (upload clean files, update titles)
 
-<pre class="article">
-My Bonnie lies over the ocean.
-My Bonnie lies over the sea.
-
-My Bonnie lies over the ocean.
-Oh, bring back my Bonnie to me.
-</pre>
-
-</body>
-</html>
+Improve article tag and clean up article code
