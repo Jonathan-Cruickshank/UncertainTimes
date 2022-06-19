@@ -3,6 +3,8 @@ headerTemplate.innerHTML = `
 
 <style>
 /*LINKS*/
+
+/*
 a:link {
   color: blue;
 }
@@ -17,6 +19,7 @@ selected link
 a:active {
   color: purple;
 }
+*/
 
 /*NAV BAR/DROPDOWN*/
 ul.nav-bar > li{
