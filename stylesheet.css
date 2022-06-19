@@ -6,7 +6,7 @@ pre.article {
   font-size: 14pt;
   font-family: Georgia;
   line-height: 1.5;
-  word-wrap: break-word;
+  white-space: pre-wrap;
   
   display: block;
   margin-left: auto;
