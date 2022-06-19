@@ -19,7 +19,6 @@ a:active {
 }
 
 /*NAV BAR/DROPDOWN*/
-<style>
 ul.nav-bar > li {
   text-align: center;
   display: inline-block;
