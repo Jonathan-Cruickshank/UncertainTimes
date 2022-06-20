@@ -8,7 +8,6 @@ a:visited {
 }
 
 .grid-container {
-  align: center;
   display: inline-grid;
 
   grid-template-columns: repeat(3, 300px);
