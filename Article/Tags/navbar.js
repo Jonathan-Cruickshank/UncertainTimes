@@ -49,7 +49,7 @@ li.dropdown {
 <hr/>
 <div align = "center">
       <ul class="nav-bar">
-    <li><a href="/../index.html">HOME</a> |</li>
+    <li><a href="Charity.html">Charity</a></li>
     </ul>
 </div>
 <hr/>
