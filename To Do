@@ -1,24 +1,16 @@
-Visited article links turn purple, underlined
-Visited nav-bar links turn black, not underlined, including dropdown
-
 ---TO DO
-Move Grid Container Div to CSS
 Center grid container
-
 Update boilerplate header code
-
-Uniform link colours
 Unfuck sources
 Proofread CSS
-
 Add tags links to previews/articles
 Add CV
-
 Pics opened/closed closed on page start
 
 ---Done
+Move Grid Container/item Div to CSS
+Uniform link colours
 Scrap audio file
 Clean up gallery file (delete old code and redundant images)
 Clean up article folder (upload clean files, update titles)
-
 Improve article tag and clean up article code
