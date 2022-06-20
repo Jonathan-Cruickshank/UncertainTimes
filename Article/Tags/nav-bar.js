@@ -17,9 +17,7 @@ display: inline-block;
 <hr/>
 <div align = "center">
       <ul class="nav-bar">
-    <li><a href="/../index.html">HOME</a> |</li>
-    <li><a href="/../CV.html">ABOUT (CV)</a> |</li>
-    <li><a href="/../Article/Tags/Tags.html">TOPICS</a> |</li>
+    <li><a href="Article/Tags/Charity.html">Charity</a> |</li>
     </ul>
 </div>
 <hr/>
