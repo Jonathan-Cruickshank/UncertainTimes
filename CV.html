@@ -8,7 +8,15 @@
 <Meta name = "descryption" content = "The Uncertain Times, Jonathan Cruickshank, Mental health, UK, Politics, Satire, Comedy" />
 
 <style>
-  .grid-container > div {
+.grid-container {
+  display: grid;
+  grid: auto auto auto auto auto auto auto/auto auto auto auto auto auto auto;
+  grid-gap: 1px;
+  background-color: black;
+  padding: 1px;
+}
+
+.grid-container > div {
   background-color: white;
   text-align: center;
   padding: 1px;
