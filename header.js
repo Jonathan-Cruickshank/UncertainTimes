@@ -7,13 +7,7 @@ headerTemplate.innerHTML = `
 a:link {
   color: blue;
 }
-visited link
 a:visited {
-  color: purple;
-  text-decoration: underline;
-}
-selected link
-a:active {
   color: purple;
 }
 
