@@ -8,6 +8,10 @@ a:link {
 a:visited {
   color: purple;
 }
+
+ul.nav-bar > li{
+display: inline-block;
+}
 </style>
 
 <div align = "center">
