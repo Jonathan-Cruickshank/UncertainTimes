@@ -50,7 +50,8 @@ li.dropdown {
 <div align = "center">
       <ul class="nav-bar">
     <li><a href="Pre-2020.html">Pre-2020</a> |</li>
-    <li><a href="Charity.html">Charity</a></li>
+    <li><a href="Charity.html">Charity</a> |</li>
+    <li><a href="Coping.html">Coping</a></li>
     </ul>
 </div>
 <hr/>
