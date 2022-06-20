@@ -1,7 +1,6 @@
 const navbarTemplate = document.createElement('template');
 navbarTemplate.innerHTML = `
 <style>
-/*LINKS*/
 a:link {
   color: blue;
 }
@@ -12,17 +11,21 @@ a:visited {
 ul.nav-bar > li{
 display: inline-block;
 }
+
 </style>
 
+<hr/>
 <div align = "center">
       <ul class="nav-bar">
-    <li><a href="/../Article/Tags/Charity.html">Charity</a></li>
-    </li>
+    <li><a href="/../index.html">HOME</a> |</li>
+    <li><a href="/../CV.html">ABOUT (CV)</a> |</li>
+    <li><a href="/../Article/Tags/Tags.html">TOPICS</a> |</li>
     </ul>
 </div>
+<hr/>
 `
 
-class NavBar extends HTMLElement {
+class Navbar extends HTMLElement {
     constructor() {
         // Always call super first in constructor
         super();
