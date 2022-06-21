@@ -51,6 +51,10 @@ div.date {
   font-size: 10pt;
 }
 
+div.tags {
+  display: inline-grid;
+}
+
 div.article {
   background-color: white;
   width: 1190px;
