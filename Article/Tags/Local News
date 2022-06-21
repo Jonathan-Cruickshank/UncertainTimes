@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>TUT- </title>
+<link rel="stylesheet" type="text/css" href="\..\stylesheet.css">
+<Meta name = "keywords" content = "Home, HTML, Meta Tags, Metadata">
+<Meta name = "descryption" content = "The Uncertain Times, Jonathan Cruickshank, Mental health, UK, Politics, Satire, Comedy" />
+
+<style>
+</style>
+
+<script src="/../header.js"></script>
+<script src="navbar.js"></script>
+
+</head>
+
+<body>
+	
+<header-component></header-component>
+<h1 align="center">Topics</h1>
+<navbar-component></navbar-component>
+<h1 align="center"></h1>
+	
+        <div class="grid-container">
+<div class="grid-item">
+          <a href = "/../Article/01-03-19- Charitable Estimate Pt. 1, 999 words.html" target = "_self" text-size="6px"> Charitable Estimate Part One</a>
+          
+          <div class="preview">
+          <p>What safeguards are in place to make sure only reputable charities get started? Is there anything more human than a charity?</p>
+          </div> <!--Preview-->
+          
+          <div class="date"> <p>01-03-19, 892 words</p> </div>
+          </div> <!--Grid Item-->
+		
+        <div class="grid-item">
+          <a href = "/../Article/15-05-17- SSCSDtS, 753 words.html" target = "_self" text-size="6px"> Smoothies, Self Care and "Shutdown the Stigma"</a>
+          
+          <div class="preview">
+          <p>On May 14th, 2018 Newport Mind marked the beginning of Mental Health Awareness Week by opening its doors to… the same...</p>
+          </div> <!--Preview-->
+          
+          <div class="date"> <p>16-05-17, 753 words</p> </div>
+          </div> <!--Grid Item-->
+                <div class="grid-item"></div>
+        </div> <!--Grid Container-->
+</div>
+</div>
+	
+</body>
+
+  </html>
