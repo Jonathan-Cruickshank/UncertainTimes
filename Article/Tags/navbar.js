@@ -52,7 +52,7 @@ li.dropdown {
     <li><a href="Pre-2020.html">Pre-2020</a> |</li>
     <li><a href="Blog.html">Blog</a> |</li>
     <li><a href="Charity.html">Charity</a> |</li>
-    <li><a href="Coping.html">Coping</a></li>
+    <li><a href="Coping.html">Coping</a> |</li>
     <li><a href="History.html">History</a> |</li>
     <li><a href="Law.html">Law</a> |</li>
     <li><a href="Local News.html">Local News</a> |</li>
