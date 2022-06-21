@@ -2,6 +2,10 @@ a:link {
   color: blue;
   text-decoration: underline;
 }
+b:link {
+  color: black;
+  text-decoration: underline;
+}
 a:visited {
   color: purple;
   text-decoration: underline;
