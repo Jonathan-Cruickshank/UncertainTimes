@@ -43,7 +43,7 @@ text-align: center;
   outline-width: 1px;
 }  
 
-div.preview {
+div.preview p{
   text-align: center;
   font-weight: bold;
   font-size: 12pt;
