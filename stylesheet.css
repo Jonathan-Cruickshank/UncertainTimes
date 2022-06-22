@@ -83,7 +83,8 @@ div.article {
 }
 
 /*Try in pages Style cell*/
-img.outline {outline-color: black;
+img.outline {
+  outline-color: black;
   outline-style: solid;
   outline-width: 1px;
   
