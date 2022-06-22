@@ -9,7 +9,7 @@ a:visited {
 
 ul.tags> li{
 display: inline-block;
-align: center;
+text-align: center;
 }
 
 .grid-container {
@@ -54,10 +54,6 @@ div.date {
   padding-right: 30px;
   font-weight: bold;
   font-size: 10pt;
-}
-
-div.tags {
-  display: inline-grid;
 }
 
 div.article {
