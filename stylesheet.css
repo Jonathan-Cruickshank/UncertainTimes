@@ -13,11 +13,7 @@ text-align: center;
 }
 
 .grid-container {
-  /*display: inline-grid;*/
-  
-  display: flex;
-  margin-left: 50%;
-  margin-right: 50%;
+  display: inline-grid;
 
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(1, auto);
