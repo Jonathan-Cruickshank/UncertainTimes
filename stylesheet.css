@@ -17,7 +17,7 @@ text-align: center;
   
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(auto);
-  align: center;
+  margin: auto;
   
   padding: 10px;
   grid-gap: 10px;
