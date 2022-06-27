@@ -17,9 +17,12 @@
 
   <div class="article">
 
-  </div>
+  </div><!--Article-->
+  
+  <ul class="tags">
+  </ul><!--Tags-->
 
-  <h1 align = "center"><u>Sources</u></h1>
+  <h2 align = "center"><u>Sources</u></h2>
 
- </body>
+</body>
 </html>
