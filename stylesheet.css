@@ -16,7 +16,7 @@ text-align: center;
   /*display: inline-grid;*/
   
   display: flex;
-  margin: 50%;
+  margin-left: 50%;
 
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(1, auto);
