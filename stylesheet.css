@@ -13,10 +13,8 @@ text-align: center;
 }
 
 .grid-container {
-  display: inline-grid;
-
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(1, auto);
+  display: flex;
+  margin: 0 50;
   
   padding: 10px;
   grid-gap: 10px;
