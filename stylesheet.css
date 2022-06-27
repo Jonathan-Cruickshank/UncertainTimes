@@ -34,7 +34,6 @@ text-align: center;
   border: 1px solid black;
   padding: 5px;
   text-align: center;
-  text-color: pink;
 }
 
 .grid-container-preview {
@@ -52,6 +51,7 @@ p.preview {
   font-weight: bold;
   font-size: 12pt;
   line-height: 1.5;
+  color: pink;
 }
   
 div.date {
