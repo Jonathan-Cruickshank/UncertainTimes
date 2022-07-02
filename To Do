@@ -1,9 +1,9 @@
 ---TO DO
 Profile picture
-Write About Me
-Center grid container
 Proofread CSS
 Pics opened/closed closed on page start
+Unfuck sources
+Add view counter
 
 ---Done
 Update boilerplate header code
@@ -15,4 +15,5 @@ Clean up article folder (upload clean files, update titles)
 Improve article tag and clean up article code
 Add CV
 Add tags links to previews/articles
-Unfuck sources
+Write About Me
+Center grid container
