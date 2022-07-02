@@ -13,44 +13,29 @@ text-align: center;
 }
 
 .grid-container {
-  display: inline-grid;
-  
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(auto);
-  margin: auto;
-  
-  padding: 10px;
+  display: grid;
+  margin-left: auto;
+  margin-right:auto;
+  grid-template-columns: 300px 300px 300px;
+  width: 920px;
+  height: auto;
   grid-gap: 10px;
-
+  background-color: white;
+  padding: 10px;
   outline-style: solid;
   outline-color: black;
   outline-width: 1px;
 }
 
 .grid-item {
-  background-color: white;
   border: 1px solid black;
-  padding: 5px;
-  text-align: center;
-}
-
-.grid-container-preview {
-
   padding: 10px;
-  grid-gap: 10px;
-
-  outline-style: solid;
-  outline-color: black;
-  outline-width: 1px;
-}  
-
-p.preview {
-  text-align: center;
+  text-align: center;  
   font-weight: bold;
   font-size: 12pt;
   line-height: 1.5;
-  color: black;
-}
+  text-color: black;
+}  
   
 div.date {
   text-align: right;
