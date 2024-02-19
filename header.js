@@ -68,7 +68,7 @@ li.dropdown {
 
       <ul class="nav-bar">
     <li><a href="/../index.html">HOME</a> |</li>
-    <li><a href="CV.html">ABOUT (CV)</a> |</li>
+    <li><a href="/../CV.html">ABOUT (CV)</a> |</li>
     <li><a href="/../Article/Tags/Topics.html">TOPICS</a> |</li>
 
     <li class="dropdown">
