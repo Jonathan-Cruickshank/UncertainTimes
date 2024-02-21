@@ -7,6 +7,25 @@ a:visited {
   text-decoration: underline;
 }
 
+	.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.filterDiv {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
 /* Style the buttons */
 .btn {
   border: none;
