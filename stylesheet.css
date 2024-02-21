@@ -7,58 +7,20 @@ a:visited {
   text-decoration: underline;
 }
 
-ul.tags> li{
-display: inline-block;
-text-align: center;
-}
-
-.filterDiv {
-  border: 1px solid black;
-  padding: 10px;
-  text-align: center;  
-  font-weight: bold;
-  font-size: 12pt;
-  line-height: 1.5;
-  text-color: black;
-  /* display: none; */
-}
-
-/* .show {
-  display: block;
-} */
-
-.container {
+.grid-container {
   display: grid;
-  margin-left: auto;
-  margin-right:auto;
-  grid-template-columns: 300px 300px 300px;
-  width: 920px;
-  height: auto;
-  grid-gap: 10px;
-  background-color: white;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
   padding: 10px;
-  outline-style: solid;
-  outline-color: black;
-  outline-width: 1px;
 }
 
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}  
   
 div.date {
   text-align: right;
