@@ -39,9 +39,22 @@
       <h1 align = "center"><u>Recent Articles</u></h1>
 	
 
-        <div class="grid-container">
-		
-		<div class="grid-item">
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('recent')"> Recent</button>
+  <button class="btn" onclick="filterSelection('pre2020')"> Pre-2020</button>
+  <button class="btn" onclick="filterSelection('localnews')"> Local News</button>
+  <button class="btn" onclick="filterSelection('social')"> Social</button>
+  <button class="btn" onclick="filterSelection('charity')"> Charity</button>
+  <button class="btn" onclick="filterSelection('coping')"> Coping</button>
+  <button class="btn" onclick="filterSelection('history')"> History</button>
+  <button class="btn" onclick="filterSelection('employment')"> Employment</button>
+  <button class="btn" onclick="filterSelection('law')"> Law</button>
+  <button class="btn" onclick="filterSelection('politics')"> Politics</button>
+</div>
+
+<div class="container">
+
+		<div class="filterDiv 2020 blog>
 	
 		<a href = "Article\0-MN-Lifeline_01-07-22_188-w.html" target = "_self" text-size=8px>Reflections- Lifeline</a>
 		
@@ -53,7 +66,7 @@
 		
 	</div>
 	
-	<div class="grid-item">
+	<div class="filterDiv 2022 blog>
 	<a href = "Article\0-MN-Series_01-07-22_134-w.html" target = "_self" text-size=8px>Reflections- Using Series</a>
 	<p class="preview">When I once again sat down to plan out, I think, my fourth blog in the past ten years I felt I needed to establish a series out of the gate.</p>
 	<div class="date"><p>01-07-22, 134 words</p>
@@ -61,7 +74,7 @@
 		</div>
 	</div><!--grid item-->
 		
-		<div class="grid-item">
+		<div class="filterDiv pre2020 charity coping social>
 		
 	  <a href = "Article\4-Tips-for-first-timers_23-01-19_29-06-21_782-w" target = "_self" text-size=8px>Group Councelling Tips for First Timers</a>
 		
@@ -72,7 +85,7 @@
 	</div><!--date-->
 	</div><!--grid item-->
 
-                <div class="grid-item">
+                <div class="filterDiv pre2020 charity coping history>
           <a href = "Article\3-Lifeline-1_23-01-19_1075-w.html" target = "_self" text-size="8px">Lifeline #1- Samaritans</a>
                   
           <p class="preview">
@@ -84,7 +97,7 @@
 	  </div>
 	  </div> <!--Grid Item-->
 		
-	  <div class="grid-item">
+	  <div class="filterDiv pre2020 charity law>
           <a href = "Article/2-Charitable-Estimate-Pt-1_10-03-19_999-w.html" target = "_self" text-size="6px"> Charitable Estimate Part One</a>
           
           <p class="preview">
@@ -96,7 +109,7 @@
 	  </div>
           </div> <!--Grid Item-->
 		
-        <div class="grid-item">
+        <div class="filterDiv pre2020 blog charity coping localnews social>
           <a href = "Article\1-SSCStS_16-05-17_753-w.html" target = "_self" text-size="6px"> Smoothies, Self Care and "Shutdown the Stigma"</a>
           
           <p class="preview">
@@ -106,11 +119,54 @@
           <div class="date"> <p>16-05-17, 753 words</p>
 
 	  </div>
-		   
-          </div> <!--Grid Item-->
+  
+</div>
+          
 
-          </div> <!--Grid Container-->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 </body>
-
-  </html>
+</html>
