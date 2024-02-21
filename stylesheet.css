@@ -8,17 +8,16 @@ a:visited {
 }
 
 .container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
   overflow: hidden;
 }
 
 .filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
   display: none; /* Hidden by default */
 }
 
