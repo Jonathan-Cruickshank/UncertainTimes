@@ -14,7 +14,6 @@ a:visited {
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto auto;
-  width: 80%;
   border: 1px solid black;
   gap: 10px;
   padding: 10px;
