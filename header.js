@@ -67,14 +67,14 @@ li.dropdown {
 <div align = "center">
 
       <ul class="nav-bar">
-    <li><a href="https://aprinceofcats.github.io/UncertainTimes/">HOME</a> |</li>
-    <li><a href="https://aprinceofcats.github.io/UncertainTimes/CV.html">ABOUT (CV)</a> |</li>
+    <li><a href="https://jonathan-cruickshank.github.io/UncertainTimes/">HOME</a> |</li>
+    <li><a href="https://jonathan-cruickshank.github.io/UncertainTimes/CV.html">ABOUT (CV)</a> |</li>
 
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">SOCIALS</a>
       <div class="dropdown-content">
         <a href="https://www.youtube.com/channel/UCcAbMxs9U3KW7WxkNhSg_8Q">Youtube</a>
-        <a href="https://github.com/APrinceofCats">GitHub</a>
+        <a href="https://github.com/jonathan-cruickshank">GitHub</a>
     </li>
 
     </ul>
