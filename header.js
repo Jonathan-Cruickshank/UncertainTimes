@@ -75,6 +75,7 @@ li.dropdown {
       <div class="dropdown-content">
         <a href="https://www.youtube.com/channel/UCcAbMxs9U3KW7WxkNhSg_8Q">Youtube</a>
         <a href="https://github.com/jonathan-cruickshank">GitHub</a>
+        <a href="www.linkedin.com/in/jonathan-cruickshank-1a7493165">LinkedIn</a>
     </li>
 
     </ul>
