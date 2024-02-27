@@ -73,9 +73,9 @@ li.dropdown {
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">SOCIALS</a>
       <div class="dropdown-content">
-        <a href="https://www.youtube.com/channel/UCcAbMxs9U3KW7WxkNhSg_8Q">Youtube</a>
-        <a href="https://github.com/jonathan-cruickshank">GitHub</a>
-        <a href="https://www.linkedin.com/in/jonathan-cruickshank-1a7493165">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCcAbMxs9U3KW7WxkNhSg_8Q" target="_blank">Youtube</a>
+        <a href="https://github.com/jonathan-cruickshank" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jonathan-cruickshank-1a7493165 target="_blank"">LinkedIn</a>
     </li>
 
     </ul>
