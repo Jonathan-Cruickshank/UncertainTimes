@@ -60,7 +60,7 @@ li.dropdown {
 <h1 align = "center"><u>The Uncertain Times</u></h1>
 <p style="text-align:center; font-size:14pt;">Independent journalism, existential blogs, criminology portfolio</p>
   
-<p style="text-align:center;"><img src="/The Rules.png" alt="The Rules: 1) Question everything. 2) If you can do something for yourself, do it. 3) Know your limits, it’s the only way you’ll know how you can help others. 4) The world deserves a second chance. 4a) That includes you. 5) You are not expendable." width="900" height="120" />
+<p style="text-align:center;"><img src="Gallery-images/The Rules.png" alt="The Rules: 1) Question everything. 2) If you can do something for yourself, do it. 3) Know your limits, it’s the only way you’ll know how you can help others. 4) The world deserves a second chance. 4a) That includes you. 5) You are not expendable." width="900" height="120" />
 
 <hr/>
 
