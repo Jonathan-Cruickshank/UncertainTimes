@@ -15,7 +15,7 @@ a:visited {
 
 <div>
 
-<h1 align = "center"><u>The Uncertain Times</u></h1>
+<h1 align = "center"><u>Contact</u></h1>
 <p style="text-align:center; font-size:14pt;">To get in contact with a bug report, please email- tut-query.passcode222@silomails.com</p>
 
 `
