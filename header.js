@@ -69,6 +69,7 @@ li.dropdown {
       <ul class="nav-bar">
     <li><a href="https://jonathan-cruickshank.github.io/UncertainTimes/">HOME</a> |</li>
     <li><a href="https://jonathan-cruickshank.github.io/UncertainTimes/CV.html">ABOUT (CV)</a> |</li>
+    <li><a href="https://jonathan-cruickshank.github.io/UncertainTimes/index.php">CONTACT</a> |</li>
 
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">SOCIALS</a>
