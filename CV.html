@@ -11,6 +11,26 @@
 	table, th, td {
   border:1px solid black;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 </style>
 
 <script src="header.js"></script>
@@ -18,6 +38,7 @@
 </head>
 
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	
 <header-component></header-component>
 
@@ -264,7 +285,29 @@ I’m a member of Parkrun and do a 5k every Saturday. Currently refining my runn
 Chess
 I collect chess sets to play with friends. I also have a Chess.com account and I'm slowly working my way through their bots and hope to interact more with their online community. I also hope to learn the game of Xiangqi.
   </div>
-  
+
+	<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
 </body>
 
   </html>
