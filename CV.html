@@ -31,33 +31,6 @@
 #myBtn:hover {
   background-color: #555;
 }
-
-<!---Drop Down--->
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 25%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  margin-left: 50%;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  margin-left: 50%;
-  padding: 0;
-  width: 25%;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
 </style>
 
 <script src="header.js"></script>
@@ -70,20 +43,6 @@
 <header-component></header-component>
 	
   <h1 align = "center"><u>Acting and General CV</u></h1>
-
-<button type="button" class="collapsible">Table of Contents</button>
-<div class="content">
-
-<a href="#edu">Education</a> <br>
-<a href="#work">Work</a> <br>
-<a href="#ref">References</a> <br>
-<a href="#vol">Volunteering</a> <br>
-<a href="#art">Writing and the Arts</a> <br>
-<a href="#int">Other Interests</a>
-
-</div> <!--Colapsable content-->
-
-	<br>
 	
   <div class="article">
 	  <u>About Me</u>
@@ -348,20 +307,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
 </script>
 	
 </body>
