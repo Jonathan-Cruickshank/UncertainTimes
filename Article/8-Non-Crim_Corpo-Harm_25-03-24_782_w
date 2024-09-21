@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+#Previews
+<div class="filterDiv recent">
+<a href = "Article\" target = "_self" text-size=8px>Daily Criminology</a>
+<p class="preview">In this essay I will attempt to illustrate Corporate harms which are not necessarily classed as criminal by outlining two examples.</p>
+<div class="date">26-04-22, 781 words <br> Pre-2024</div>
+</div>
+
 <head>
-<title>Non-Criminal Corporate Harm</title>
+<title>TUT- Non-Criminal Corporate Harm</title>
 <link rel="stylesheet" type="text/css" href="/../stylesheet.css">
 <Meta name = "keywords" content = "Home, HTML, Meta Tags, Metadata">
 <Meta name = "descryption" content = "The Uncertain Times, Jonathan Cruickshank, Mental health, UK, Politics, Satire, Comedy" />
@@ -12,7 +19,11 @@
 </head>
 <body>
 <header-component></header-component> 
- 
+
+  <div class="article">
+<b>Author's Note- This essay was origionally written as part of my Open University course covering criminology and social science. Origionally written- 25-03-24</b>
+  </div><!--Article-->
+
 <u><h1 align = "center">Define two examples of non-criminal corporate harm in your own words.- 29/11/21</h1></u>
 
   <div class="article">
@@ -41,8 +52,6 @@ There is a fair amount of opinion involved at the start of the process, a sort o
   
   <ul class="tags">
   </ul><!--Tags-->
-
-  <h2 align = "center"><u>Sources</u></h2>
 
 </body>
 </html>
