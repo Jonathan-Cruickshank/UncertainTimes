@@ -19,6 +19,14 @@ a:visited {
   padding: 10px;
 }
 
+.scrum-container {
+  display: inline-grid;
+  grid-template-columns: 225px, 225px, 225px, 225px
+  border: 1px solid black;
+  gap: 10px;
+  padding: 10px;
+}
+
 .filterDiv {
   display: inline-grid;
   grid-template-columns: 300px 300px 300px;
