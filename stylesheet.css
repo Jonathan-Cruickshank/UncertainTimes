@@ -20,11 +20,16 @@ a:visited {
 }
 
 .scrum-container {
-  display: inline-grid;
-  grid-template-columns: 225px, 225px, 225px, 225px
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.scrum-container > div {
+  background-color: #f1f1f1;
   border: 1px solid black;
-  gap: 10px;
   padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .filterDiv {
